@@ -1,0 +1,83 @@
+body
+{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.head
+{
+height: 85px;
+width: 100%;
+background-color: rgb(64, 62, 100);
+}
+.headname{
+    font: bold;
+
+    padding-top: 1px;
+    
+    font: serif;
+    height: 85px;
+    width: 20%;
+    
+}
+.nav-link{
+    color: lavenderblush;
+    
+    
+    font: 1em sans-serif;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .imp{
+    background-image: url('prodp.jpg');
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #bb{
+    background-image: url("back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+      height:;
+      width: ;
+  }
+  #ff{
+   background-color: rgb(37, 37, 37);
+  }
+  .ex{
+    
+     
+    background-image: linear-gradient(to right top, #8e8b8d, #979698, #a1a1a3, #aaacae, #b5b7b8, #b1b3b3, #acaeaf, #a8aaaa, #939696, #7f8282, #6c6f6f, #595c5c);
+  }
+  #log{
+      size: 5em;
+  }
+  #card
+  {
+  background-image: url("images.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ margin-left:2.3em;
+   
+  
+    
+  }
+  .contact{
+
+    background-image: url("image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+  }
+  #ff{
+    background-color:   rgb(37, 37, 37);
+   }
