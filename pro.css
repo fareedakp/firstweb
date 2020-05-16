@@ -1,9 +1,13 @@
 body
 {
+  background-image: url("back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
-    height: 100%;
-    width: 100%;
 }
+   
+
 .head
 {
 height: 85px;
@@ -39,23 +43,11 @@ background-color: rgb(64, 62, 100);
     background-repeat: no-repeat;
     background-size: cover;
   }
-  #bb{
-    background-image: url("back.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-     
-      height:;
-      width: ;
-  }
+  
   #ff{
    background-color: rgb(37, 37, 37);
   }
-  .ex{
-    
-     
-    background-image: linear-gradient(to right top, #8e8b8d, #979698, #a1a1a3, #aaacae, #b5b7b8, #b1b3b3, #acaeaf, #a8aaaa, #939696, #7f8282, #6c6f6f, #595c5c);
-  }
+  
   #log{
       size: 5em;
   }
@@ -64,13 +56,12 @@ background-color: rgb(64, 62, 100);
   background-image: url("images.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
- margin-left:2.3em;
+  background-size: cover
    
   
     
   }
-  .contact{
+  #contact{
 
     background-image: url("image.jpg");
     background-position: center;
@@ -80,4 +71,11 @@ background-color: rgb(64, 62, 100);
   }
   #ff{
     background-color:   rgb(37, 37, 37);
+   }
+   #exp{
+    
+    background-image: linear-gradient(to right top, #8e8b8d, #979698, #a1a1a3, #aaacae, #b5b7b8, #b1b3b3, #acaeaf, #a8aaaa, #939696, #7f8282, #6c6f6f, #595c5c);
+  }
+  #log{
+     background-color: rgb(101, 101, 107);
    }
