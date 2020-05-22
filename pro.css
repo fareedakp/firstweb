@@ -1,6 +1,6 @@
 body
 {
-  background-image: url("back.jpg");
+  background-image: url("image/back.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@ background-color: rgb(64, 62, 100);
     height: auto;
   }
   .imp{
-    background-image: url('prodp.jpg');
+    background-image: url('image/prodp.jpg');
     height: 100%;
 
     /* Center and scale the image nicely */
@@ -45,7 +45,7 @@ background-color: rgb(64, 62, 100);
   }
   
   #ff{
-   background-color: rgb(37, 37, 37);
+   background-color: rgb(119, 118, 118);
   }
   
   #log{
@@ -53,7 +53,7 @@ background-color: rgb(64, 62, 100);
   }
   #card
   {
-  background-image: url("images.jpg");
+  background-image: url("image/images.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover
@@ -63,14 +63,14 @@ background-color: rgb(64, 62, 100);
   }
   #contact{
 
-    background-image: url("image.jpg");
+    background-image: url("image/image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
      
   }
   #ff{
-    background-color:   rgb(37, 37, 37);
+    background-color:   rgb(29, 29, 29);
    }
    #exp{
     
@@ -78,4 +78,57 @@ background-color: rgb(64, 62, 100);
   }
   #log{
      background-color: rgb(101, 101, 107);
+   }
+   #skils{
+
+    background-image: url("work/pln.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+   }
+   #side{
+
+    background-image: url("image/black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 5rem;
+  height: 10rem;
+    
+   }
+   #bar{
+
+    background-image: url("work/calc.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+   }
+   #skil{
+
+    background-image: url("work/c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+   }
+   #skl{
+    height: 10rem;
+     width: 15rem;
+     background-image: linear-gradient(to right top,  #658f8f, #979698, #658f8f, #aaacae,  #658f8f, #b1b3b3, #acaeaf, #658f8f, #939696, #658f8f, #6c6f6f, #658f8f);
+    
+   }
+   .imge{
+    height: 9rem;
+     width:13rem;
+     margin-top:.5rem;
+   }
+   #myskil
+   {
+   background-image: url("work/light.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover
    }
