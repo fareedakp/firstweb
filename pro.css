@@ -116,9 +116,9 @@ background-color: rgb(64, 62, 100);
    }
   
    #imge{
-    height: 1rem;
-     width:1rem;
-   
+    
+   width:10rem ; 
+   height:10rem ;
    }
    #myskil
    {
