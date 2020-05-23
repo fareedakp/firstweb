@@ -116,11 +116,12 @@ background-color: rgb(64, 62, 100);
    }
   
    #imge{
-    height: 15rem;
-     width:22rem;
+    height: 10rem;
+     width:15rem;
      margin-top:4rem;
      background-image: linear-gradient(to right top,  #658f8f, #979698, #658f8f, #aaacae,  #658f8f, #b1b3b3, #acaeaf, #658f8f, #939696, #658f8f, #6c6f6f, #658f8f);
-     border-radius: 2rem;
+     border-radius: 3rem;
+     border-width: 4rem;
    }
    #myskil
    {
