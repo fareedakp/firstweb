@@ -114,20 +114,17 @@ background-color: rgb(64, 62, 100);
     background-size: cover;
   
    }
-   #skl{
-    height: 10rem;
-     width: 15rem;
+  
+   #imge{
+    height: 15rem;
+     width:22rem;
+     margin-top:4rem;
      background-image: linear-gradient(to right top,  #658f8f, #979698, #658f8f, #aaacae,  #658f8f, #b1b3b3, #acaeaf, #658f8f, #939696, #658f8f, #6c6f6f, #658f8f);
-    
-   }
-   .imge{
-    height: 9rem;
-     width:13rem;
-     margin-top:.5rem;
+     border-radius: 2rem;
    }
    #myskil
    {
-   background-image: url("work/light.jpg");
+   background-image: url("work/4.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover
