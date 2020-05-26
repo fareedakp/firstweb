@@ -163,14 +163,14 @@
           <div class="form-group col-md-6 col-12">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="email" placeholder="Email">
-            <label id="errore" style="display: none; color: crimson;">enter minimum 6 charecter</label>
+            <label id="errore" style="display: none; color: crimson;">valid mail id</label>
           </div>
          
           <div class="form-group col-md-12">
             <label for="inputAddress">Message</label>
            
-            <textarea cols="30" rows="5" id="msg" class="col-md-12 form-group" placeholder="Type Your Message"></textarea>
-            <label id="errorm" style="display: none;">enter minimum 6 charecter</label>
+            <textarea cols="30" rows="5" id="msg" class="col-md-12 form-group" placeholder="Type Your Message" name="msg"></textarea>
+            <label id="errorm" style="display: none;color: crimson; ">enter minimum 10 charecter</label>
           </div>
 
         </div>
@@ -219,10 +219,34 @@
               }else 
               $("#errorn").hide()
             })
-             
-
-
             
+           
+
+$("#msg").blur(function(){
+              var text=$(this).val()
+              if(text.length<10){
+                $("#errorm").show()
+
+              }else 
+              $("#errorm").hide()
+            })
+            
+
+            function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat))
+{
+document.emailform.email.focus();
+return true;
+}
+else
+{
+  alert("You have entered an invalid email address!");
+document.emailform.email.focus();
+return false;
+}
+}
           
         </script>
         <script>
