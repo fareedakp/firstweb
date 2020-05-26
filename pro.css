@@ -100,7 +100,7 @@ background-color: rgb(64, 62, 100);
    }
    #bar{
 
-    background-image: url("work/calc.jpeg");
+    background-image: url("work/gry.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,14 +116,16 @@ background-color: rgb(64, 62, 100);
    }
   
    #imge{
-    
-   width:10rem ; 
-   height:10rem ;
+    background-image: url("image/rr.jpg");
+   width: 17rem;
+   height: 15rem;
+  
+   border-radius: 2rem;
+   border-width: 8rem;
    }
    #myskil
    {
-   background-image: url("work/4.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover
+    background-image: linear-gradient(to right top, #8e8b8d, #979698, #a1a1a3, #aaacae, #b5b7b8, #b1b3b3, #acaeaf, #a8aaaa, #939696, #7f8282, #6c6f6f, #595c5c);
+   
    }
+  
