@@ -152,25 +152,25 @@
     <h1 class="text-center text-white">Contact Me</h1>
     <div class="row">
       <div class="col-md-12">
-      <form action="mailto:fareedakp2@gmail.com" name="emailform" id="contact-form" method="POST" action="" role="form" enctype="text/plain">
+      <form name="contact-form" id="contactform">
         <div class="form-row">
           <div class="form-group col-md-6 col-12">
             <label for="inputPassword4">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Name">
-            <label id="errorn" style="display: none; color: crimson;">enter minimum 6 charecter</label>
+            <input type="text" class="form-control" id="fname" placeholder="Name" name="fname">
+           
           </div>
          
           <div class="form-group col-md-6 col-12">
             <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Email">
-            <label id="errore" style="display: none; color: crimson;">valid mail id</label>
+            <input type="email" class="form-control" id="femail" placeholder="Email" name="femail">
+            
           </div>
          
           <div class="form-group col-md-12">
             <label for="inputAddress">Message</label>
            
             <textarea cols="30" rows="5" id="msg" class="col-md-12 form-group" placeholder="Type Your Message" name="msg"></textarea>
-            <label id="errorm" style="display: none;color: crimson; ">enter minimum 10 charecter</label>
+            
           </div>
 
         </div>
@@ -204,56 +204,17 @@
 
         </footer>
       </section>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/391c7cfeca.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
+        <script src="script.js"></script>
          
-            $("#name").blur(function(){
-              var text=$(this).val()
-              if(text.length<6){
-                $("#errorn").show()
-
-              }else 
-              $("#errorn").hide()
-            })
-            
-
-            function ValidateEmail(inputText)
-{
-var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-if(inputText.value.match(mailformat))
-{
-document.emailform.email.focus();
-return true;
-}
-else
-{
-  alert("You have entered an invalid email address!");
-document.emailform.email.focus();
-return false;
-}
-}
            
-
-$("#msg").blur(function(){
-              var text=$(this).val()
-              if(text.length<10){
-                $("#errorm").show()
-
-              }else 
-              $("#errorm").hide()
-            })
-            
-
-           
-          
-        </script>
-        <script>
-          AOS.init();
-        </script>
+        
     
       </body>
 </html>
